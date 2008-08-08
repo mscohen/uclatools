@@ -29,7 +29,7 @@ without permission of the
 <a href="mailto:mscohen@ucla.edu">author</a>.
 <p>
 Unless otherwise stated, I do not offer technical support beyond that found on the
-<a href="http://porkpie.loni.ucla.edu/HowTo/P2P-proto.html">
+<a href="http://airto.hosted.ats.ucla.edu/HowTo/P2P-proto.html">
 Brain Mapping Center support pages</a>.
 </td></tr></table></center>
 <pre>*/
