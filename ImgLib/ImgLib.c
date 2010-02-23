@@ -4882,6 +4882,7 @@ number of pixels to ignore on the outside eges of the images.
 		error = vmov( Buffer, 1, image_data, 1, im->dim.x*im->dim.y, im->data_type );
 			RETURNONERROR;
 	}
+	
 	memFree( &Buffer, "Read image buffer" );
 
 	error = vfminmax( image_data, im->dim.x * im->dim.y, &imax, &imin, im->data_type );

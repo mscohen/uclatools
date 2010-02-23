@@ -320,10 +320,10 @@ OSErr SynthSeries( void )
 /* convert the contents of outdata to the transformed version of indata */
 		type_convert( (void *)noiseImage, T_FLOAT, (void *)outData, u.outIm.data_type,
 		                      VolSize, &u.outIm.theMaxf, &u.outIm.theMinf, &rules );		
-		printf( "Image %d\n", u.NumOutImages+1 );
 		if( u.Verbose ) {
+			printf( "Image %d\n", u.NumOutImages+1 );
 			if( InterpretConversionResult( ConversionString, rules ) ) {
-				printf( ConversionString );
+				printf( "%s\n", ConversionString );
 			}
 		}
 
@@ -381,7 +381,6 @@ OSErr ProcessCommandLine( int argc, char *argv[] )
 {
 	OSErr error = noErr;
 	int argp = EOF;
-	short argsProcessed = 0;
 
 	u.Verbose = false;
 
